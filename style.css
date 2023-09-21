@@ -65,9 +65,14 @@ div {
     display: block;
     background: #ecdcdc;
     border: 2px solid black;
-    width:40em;
+    width:44%;
     height:20em;
     vertical-align:top;
     display: inline-block;
-    margin-right: 2%;
+    margin-right: 5%;
+}
+
+.betty {
+    width: 350px;
+    height: 500px;
 }
