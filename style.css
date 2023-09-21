@@ -9,25 +9,26 @@ body{
     background-image: url(img/Scherm­afbeelding\ 2023-09-19\ om\ 21.22.48.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-color: hwb(0 0% 100% / 0.722);
     font-family: 'Times New Roman', Times, serif
 }
 
 h1 {
-    background-color: rgb(249, 222, 239);
     color: #0e080c;
     text-align: center;
     font-family: fantasy;
 }
 
 h2 {
+    border: 2px solid black; 
+    background: rgb(241, 220, 220);
+    padding: 0.5em;
     text-align: center;
     font-family: fantasy;
 }
 .nav-container{
-    background-color: hsl(0, 43%, 86%);
-    border: 1px solid hsl(325, 100%, 94%);
+    border: 1px solid hsl(0, 0%, 0%);
     border-radius: 25px;
     margin-top: 50px;
     overflow: hidden;
@@ -57,5 +58,16 @@ h2 {
 }
 /* apply hover */
 .right-side li a:hover, .left-side li a:hover{
-    background-color: #f5e6e6;
+    background-color: #fbcaca;
+}
+
+div {
+    display: block;
+    background: #ecdcdc;
+    border: 2px solid black;
+    width:40em;
+    height:20em;
+    vertical-align:top;
+    display: inline-block;
+    margin-right: 2%;
 }
