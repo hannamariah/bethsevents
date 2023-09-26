@@ -76,3 +76,9 @@ div {
     width: 350px;
     height: 500px;
 }
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Hiermee worden de afbeeldingen aan de uiteinden van de container geplaatst */
+    max-width: 100%;
+    height:auto
+}
