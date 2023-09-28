@@ -88,3 +88,8 @@ div {
     width: 100%;
     margin-left: 10px;
 }
+
+.container {
+    position: relative; /* Zorgt ervoor dat ::before relatief aan dit element is */
+  }
+  
