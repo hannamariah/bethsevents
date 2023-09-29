@@ -1,16 +1,16 @@
 * {
-    padding: 100;
-    margin: 100;
+    padding: 0;
+    margin: 0;
     box-sizing:border-box;
 }
 
 
 body{
-    background-image: url(img/Scherm­afbeelding\ 2023-09-19\ om\ 21.22.48.png);
+    background-image: url(img/logo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-color: hwb(0 0% 100% / 0.722);
+    background-color: hwb(0 93% 7% / 0.722);
     font-family: 'Times New Roman', Times, serif
 }
 
@@ -93,3 +93,22 @@ div {
     position: relative; /* Zorgt ervoor dat ::before relatief aan dit element is */
   }
   
+  .her {
+    height: auto;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+
+.contactfoto{
+    height: auto;
+    width: 100%;
+    margin-left: 10px;
+}
+.box {
+    width: 45%; /* Breedte van elke box */
+    border: 1px solid #000; /* Randstijl en kleur */
+    padding: 10px; /* Ruimte binnen de box */
+    margin: 5px; /* Ruimte tussen de boxen */
+    display: inline-block; /* Zorgt ervoor dat de boxen naast elkaar worden weergegeven */
+}
