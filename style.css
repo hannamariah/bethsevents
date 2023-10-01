@@ -12,6 +12,8 @@ body{
     background-attachment:fixed;
     background-color: hwb(0 93% 7% / 0.722);
     font-family: 'Times New Roman', Times, serif
+    
+
 }
 
 h1 {
@@ -25,8 +27,10 @@ h2 {
     background: rgb(241, 220, 220);
     padding: 0.5em;
     text-align: center;
-    font-family: fantasy;
+    font-family: fantasy
+
 }
+
 .nav-container{
     border: 1px solid hsl(0, 0%, 0%);
     border-radius: 25px;
@@ -90,7 +94,7 @@ div {
 }
 
 .container {
-    position: relative; /* Zorgt ervoor dat ::before relatief aan dit element is */
+    position: relative; 
   }
   
   .her {
@@ -105,10 +109,23 @@ div {
     width: 100%;
     margin-left: 10px;
 }
-.box {
-    width: 45%; /* Breedte van elke box */
-    border: 1px solid #000; /* Randstijl en kleur */
-    padding: 10px; /* Ruimte binnen de box */
+
+
+.box1 {
+    border: 0.5px solid #f2e0e0; /* Randstijl en kleur */
+    padding: 1px; /* Ruimte binnen de box */
     margin: 5px; /* Ruimte tussen de boxen */
-    display: inline-block; /* Zorgt ervoor dat de boxen naast elkaar worden weergegeven */
+    text-align: left;
+}
+
+.box2 {
+    border: 0.5px solid #f2e0e0; /* Randstijl en kleur */
+    padding: 1px; /* Ruimte binnen de box */
+    margin: 5px; /* Ruimte tussen de boxen */
+    text-align: right;
+}
+
+.blog {
+    display: flex;
+
 }
