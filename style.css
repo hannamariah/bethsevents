@@ -23,10 +23,10 @@ h1 {
 }
 
 h2 {
-    border: 2px solid black; 
+    border: 1Px solid black; 
     background: rgb(241, 220, 220);
-    padding: 0.5em;
-    text-align: center;
+    padding: 0.1em;
+    text-align:center;
     font-family: fantasy
 
 }
@@ -71,7 +71,6 @@ div {
     border: 2px solid black;
     width:44%;
     height:20em;
-    vertical-align:top;
     display: inline-block;
     margin-right: 5%;
 }
@@ -89,25 +88,32 @@ div {
 
 .gallerijfoto {
     height: auto;
-    width: 100%;
-    margin-left: 10px;
+    width: 50%;
+    justify-content: center;
+    align-items:baseline 
+
+   
+}
+
+.gallerijfoto2 {
+    height: auto;
+    width: 50%;
+    display: flex;
+    
+
 }
 
 .container {
     position: relative; 
   }
   
-  .her {
-    height: auto;
-    width: 100%;
-    margin-left: 10px;
-  }
 
 
 .contactfoto{
     height: auto;
     width: 100%;
-    margin-left: 10px;
+    display: flex;
+    justify-content: right;
 }
 
 
@@ -115,17 +121,96 @@ div {
     border: 0.5px solid #f2e0e0; /* Randstijl en kleur */
     padding: 1px; /* Ruimte binnen de box */
     margin: 5px; /* Ruimte tussen de boxen */
-    text-align: left;
+    text-align: center;
 }
 
 .box2 {
     border: 0.5px solid #f2e0e0; /* Randstijl en kleur */
     padding: 1px; /* Ruimte binnen de box */
     margin: 5px; /* Ruimte tussen de boxen */
-    text-align: right;
+    text-align: center;
 }
 
 .blog {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+ul {
+    color: rgb(242, 77, 195);
+    display: flex;
+    justify-content: space-evenly
+
+}
+
+.her {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+}
+
+.formulier {
+
+    color: #df98c4;
+    font-size: 0.875em;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:rgb(214, 121, 154);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.form { 
+    max-width:420px; margin:50px auto; 
+}
+
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: #EEE3D2
+}
+
+.feedback-input:focus { border:2px solid #c28a8d; }
+
+.textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#000000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:rgb(255, 255, 255);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#cca9a9; }
