@@ -32,7 +32,7 @@ h2 {
 }
 
 main h1 {
-  
+  margin-bottom: 0.3em;
 }
 
 
@@ -97,12 +97,13 @@ div {
     align-items:baseline 
 }
 
-
-
-.container {
-    position: relative; 
-  }
-  
+.fotos {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 1fr 2fr 1fr;
+   gap: 30px 20px;
+   
+}
 
 
 .contactfoto{
@@ -134,6 +135,8 @@ div {
     margin-bottom: 0.5em;
 }
 
+
+
 section {
     display: flex;
     padding: 20px;
@@ -155,69 +158,30 @@ ul {
     justify-content: flex-end;
 }
 
-.formulier {
 
-    color: #df98c4;
-    font-size: 0.875em;
+
+
+
+.contactformulier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-inline: auto;
+    background-color: #EEE3D2;
+    
 }
 
-form { max-width:420px; margin:50px auto; }
-
-.feedback-input {
-  color:rgb(214, 121, 154);
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border:2px solid #000000;
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width:100%;
-  box-sizing: border-box;
-  outline:0;
+input,textarea {
+    
+    margin: 0.5rem;
+    width: 60%
 }
 
-.form { 
-    max-width:420px; margin:50px auto; 
+button {
+    color: white;
+    background-color: black;
+    padding: 0.8rem;
+    font-size: larger;
 }
 
-.feedback-input {
-  color:rgb(0, 0, 0);
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: #EEE3D2
-}
-
-.feedback-input:focus { 
-    border:2px solid #c28a8d;
-}
-
-.textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 100%;
-  background:#000000;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:rgb(255, 255, 255);
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-
-[type="submit"]:hover { background:#cca9a9; }
