@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing:border-box;
 }
-
+/*image grootte */
 * img {
     max-width: 100%;
 }
@@ -16,33 +16,8 @@ body{
     background-color: hwb(0 0% 100% / 0.722);
     font-family: 'Times New Roman', Times, serif
 
-}
-
-h1  {
-    color: #0e080c;
-    text-align: center;
-    font-family: fantasy;
-    
-}
-
-h2 {
-    background: #EEE3D2;
-    padding: 0.1em;
-    text-align:center;
-    font-family: fantasy
-
-}
-
-h3 , h4 {
-    font-family: fantasy;
-    text-align: center;
-    color: #0e080c;
-}
-
-main h1 {
-  margin-bottom: 0.3em;
-}
-
+} 
+/*navigatie pagina's*/
 
 .nav-container{
     border: 1px solid hsl(0, 0%, 0%);
@@ -78,18 +53,49 @@ main h1 {
     background-color: #fbcaca;
 }
 
+/*tekst lettertype, color, size elke h*/
+h1  {
+    color: #0e080c;
+    text-align: center;
+    font-family: fantasy;
+    
+}
 
+h2 {
+    background: #EEE3D2;
+    padding: 0.1em;
+    text-align:center;
+    font-family: fantasy
 
+}
 
+h3 , h4 {
+    font-family: fantasy;
+    text-align: center;
+    color: #0e080c;
+}
 
-.fotos {
-    box-sizing: border-box;
-    columns: 3 30vw; 
-    gap: 15px;
+/*about*/
+
+main h1 {
+  margin-bottom: 0.3em;
+}
+
+section {
+    display: flex;
+    padding: 20px;
+}
+
+.her {
+    width: 700px;
+    height: 900px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
 
+/*blog*/
 
 .blog {
     display: grid ;
@@ -103,24 +109,31 @@ main h1 {
 .blog article {
     color: #000000;
     background-color: #EEE3D2;
-}
-
-
-
-
-section {
     display: flex;
-    padding: 20px;
+    align-items: center;
+
+}
+
+.div {
+    box-sizing: border-box;
+    columns: 3 30vw; 
+    gap: 15px;
 }
 
 
 
-.her {
-    width: 700px;
-    height: 900px;
-    display: flex;
-    justify-content: flex-end;
+
+/*Gallery*/
+
+.fotos {
+    box-sizing: border-box;
+    columns: 3 30vw; 
+    gap: 15px;
 }
+
+
+
+/*contact*/
 
 .contactformulier {
     display: flex;
@@ -148,18 +161,7 @@ button {
 }
 
 
-.about {
 
-        display: block;
-        background:#EEE3D2;
-        width:44%;
-        height:20em;
-        display: inline-block;
-        margin-right: 5%;
-}
 
-.div {
-    box-sizing: border-box;
-    columns: 3 30vw; 
-    gap: 15px;
-}
+
+
