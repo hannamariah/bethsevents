@@ -4,13 +4,16 @@
     box-sizing:border-box;
 }
 
+* img {
+    max-width: 100%;
+}
 
 body{
     background-image: url(img/logo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-color: hwb(0 93% 7% / 0.722);
+    background-color: hwb(0 0% 100% / 0.722);
     font-family: 'Times New Roman', Times, serif
 
 }
@@ -23,12 +26,17 @@ h1  {
 }
 
 h2 {
-    border: 1Px solid black; 
-    background: rgb(241, 220, 220);
+    background: #EEE3D2;
     padding: 0.1em;
     text-align:center;
     font-family: fantasy
 
+}
+
+h3 , h4 {
+    font-family: fantasy;
+    text-align: center;
+    color: #0e080c;
 }
 
 main h1 {
@@ -70,70 +78,33 @@ main h1 {
     background-color: #fbcaca;
 }
 
-div {
-    display: block;
-    background: #ecdcdc;
-    border: 2px solid black;
-    width:44%;
-    height:20em;
-    display: inline-block;
-    margin-right: 5%;
-}
 
 
-.image-container {
-    display: flex;
-    justify-content: space-between; /* Hiermee worden de afbeeldingen aan de uiteinden van de container geplaatst */
-    max-width: 100%;
-    height:auto
-}
 
-.gallerijfoto {
-    
-    box-sizing: border-box;
-    height: auto;
-    width: 50%;
-    justify-content: center;
-    align-items:baseline 
-}
 
 .fotos {
-    display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: 1fr 2fr 1fr;
-   gap: 30px 20px;
-   
+    box-sizing: border-box;
+    columns: 3 30vw; 
+    gap: 15px;
 }
 
 
-.contactfoto{
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: right;
-}
 
-
-.box1 {
-    border: 0.5px solid #f2e0e0; /* Randstijl en kleur */
-    padding: 1px; /* Ruimte binnen de box */
-    margin: 5px; /* Ruimte tussen de boxen */
-    text-align: center;
-}
-
-.box2 {
-    border: 0.5px solid #f2e0e0; /* Randstijl en kleur */
-    padding: 1px; /* Ruimte binnen de box */
-    margin: 5px; /* Ruimte tussen de boxen */
-    text-align: center;
-}
 
 .blog {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.5em;
+    display: grid ;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem ;
+    grid-row-gap: 2rem;
+    padding: 2%;
+    margin: 2%;
 }
+
+.blog article {
+    color: #000000;
+    background-color: #EEE3D2;
+}
+
 
 
 
@@ -144,13 +115,6 @@ section {
 
 
 
-ul {
-    color: rgb(242, 77, 195);
-    display: flex;
-    justify-content: space-evenly
-
-}
-
 .her {
     width: 700px;
     height: 900px;
@@ -158,30 +122,44 @@ ul {
     justify-content: flex-end;
 }
 
-
-
-
-
 .contactformulier {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    margin-inline: auto;
+    margin-inline: 20%;
     background-color: #EEE3D2;
+    border-radius: 100%;
     
 }
 
 input,textarea {
     
-    margin: 0.5rem;
-    width: 60%
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%
 }
 
 button {
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 0.8rem;
     font-size: larger;
 }
 
+
+.about {
+
+        display: block;
+        background:#EEE3D2;
+        width:44%;
+        height:20em;
+        display: inline-block;
+        margin-right: 5%;
+}
+
+.div {
+    box-sizing: border-box;
+    columns: 3 30vw; 
+    gap: 15px;
+}
