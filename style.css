@@ -121,7 +121,6 @@ main .about{
 /*blog*/
 
 
-
 .blog {
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +139,11 @@ main .about{
     width: 55%;
     margin-bottom: 2em;
     box-sizing: border-box;
+}
+
+.div img {
+    height: auto;
+    max-width:420px;
 }
 
 
@@ -184,3 +188,6 @@ button {
 
 
 
+.footer {
+    align-items: flex-start;
+}
