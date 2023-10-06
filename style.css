@@ -10,6 +10,7 @@
 
 
 body{
+    min-height: 100vh;
     background-image: url(img/logo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,6 +19,14 @@ body{
     font-family: 'Times New Roman', Times, serif
 
 } 
+
+header {
+    min-height: 15vh;
+}
+
+main {
+    min-height: 80vh;
+}
 /*navigatie pagina's*/
 
 .nav-container{
@@ -187,4 +196,6 @@ footer {
     background-color: rgb(255, 235, 247);
     text-align: center;
     display: flex;
+    align-items: center;
+    min-height: 5vh;
 }
