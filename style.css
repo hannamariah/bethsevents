@@ -198,4 +198,5 @@ footer {
     display: flex;
     align-items: center;
     min-height: 5vh;
+    justify-content: center;
 }
