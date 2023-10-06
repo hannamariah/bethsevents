@@ -183,11 +183,8 @@ button {
     font-size: larger;
 }
 
-
-
-
-
-
-.footer {
-    align-items: flex-start;
+footer {
+    background-color: rgb(255, 235, 247);
+    text-align: center;
+    display: flex;
 }
