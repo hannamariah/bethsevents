@@ -77,25 +77,63 @@ h3 , h4 {
 
 /*about*/
 
-main h1 {
-  margin-bottom: 0.3em;
+.about {
+    width: 50%;
+    padding: 78px 0px;
+    background-color: #EEE3D2 ;
+
+}
+.about img {
+    height: auto;
+    width: 420px;
+}
+.about-tekst {
+    width: 550px;
 }
 
-section {
-    display: flex;
-    padding: 20px;
-}
-
-.her {
-    width: 700px;
-    height: 900px;
-    display: flex;
+.about-tekst h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
     justify-content: flex-end;
 }
+
+.about-tekst h5 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    justify-content: flex-end;
+}
+
+main .about{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
 
 
 
 /*blog*/
+
+
+@media (max-width:900px) {
+    .blog {
+        display: grid ;
+        grid-template-columns:100%;
+        grid-column-gap: 2rem ;
+        grid-row-gap: 2rem;
+        padding: 2%;
+        margin: 2%;
+    }
+}
 
 .blog {
     display: grid ;
@@ -142,8 +180,7 @@ section {
     align-items: center; 
     margin-inline: 20%;
     background-color: #EEE3D2;
-    border-radius: 100%;
-    
+    border-radius: 50%;
 }
 
 input,textarea {
