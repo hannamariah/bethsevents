@@ -92,7 +92,7 @@ h3 , h4 {
 }
 
 .about-tekst h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 80px;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -100,7 +100,7 @@ h3 , h4 {
 }
 
 .about-tekst h5 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 80px;
     text-transform: capitalize;
     margin-bottom: 20px;
