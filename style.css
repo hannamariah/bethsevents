@@ -11,7 +11,7 @@
 
 body{
     min-height: 100vh;
-    background-image: url(img/logo.jpeg);
+    background-image: url(img/logo!.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -30,7 +30,7 @@ main {
 /*navigatie pagina's*/
 
 .nav-container{
-    border: 1px solid hsl(0, 0%, 0%);
+    border: 3px solid hsl(0, 0%, 0%);
     border-radius: 25px;
     margin-top: 50px;
     overflow: hidden;
@@ -85,12 +85,12 @@ h3 , h4 {
     color: #0e080c;
 }
 
-/*about*/
+/*home*/
 
 .about {
     width: 50%;
     padding: 78px 0px;
-    background-color: #EEE3D2 ;
+    background-color: transparent;
     display: flex;
 }  
 .about img {
