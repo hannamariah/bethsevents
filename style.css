@@ -11,7 +11,7 @@
 
 body{
     min-height: 100vh;
-    background-image: url(img/logo2.jpeg);
+    background-image: url(img/Scherm­afbeelding\ 2023-10-08\ om\ 19.28.23.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -27,25 +27,25 @@ header {
 main {
     min-height: 80vh;
 }
-/*navigatie pagina's*/
+/* navigatie pagina's*/
 
 .nav-container{
     border: 0.2em solid hsl(0, 0%, 0%);
-    border-radius: 1em;
-    margin-top: 3em;
+    border-radius: 3em;
+    margin-top: 1.4em;
     overflow: hidden;
-    /* apply flex to get right and left navigations in a row */
+    /* flex toepassen om rechts en links achter elkaar te navigeren */
     display: flex;
-    /* push both the blocks to the edges using justify-content */
+    /* duwt beide blokken naar de randen met justify-content */
     justify-content:space-between;
 }
-/* target the ul and remove the bullets */
+/* richt op de ul  */
 .right-side, .left-side{
     list-style-type: none;
 }
 /* change li display property from block to inline block */
 .right-side li, .left-side li{
-    display: inline-block;
+    display: flex;
 }
 /* style the anchor elements */
 .right-side li a, .left-side li a{
@@ -135,25 +135,18 @@ main .about{
     padding: 2%;
     margin: 2%;
     justify-content: space-evenly;
-    box-sizing: border-box;
     text-align: center;
-    columns: 3 30vw; 
-    gap: 6em;
+    gap: 3em;
 }
 
 .blog article {
     color: #000000;
     background-color: #EEE3D2;
     display: flex;
-    align-items: center;
     width: 55%;
     margin-bottom: 2em;
-    box-sizing: border-box;
 }
 
-.div img {
-    height: 800px;
-}
 
 
 /*Gallery*/
