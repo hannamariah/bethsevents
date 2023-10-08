@@ -11,7 +11,7 @@
 
 body{
     min-height: 100vh;
-    background-image: url(img/logo!.png);
+    background-image: url(img/logo2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -30,14 +30,14 @@ main {
 /*navigatie pagina's*/
 
 .nav-container{
-    border: 3px solid hsl(0, 0%, 0%);
-    border-radius: 25px;
-    margin-top: 50px;
+    border: 0.2em solid hsl(0, 0%, 0%);
+    border-radius: 1em;
+    margin-top: 3em;
     overflow: hidden;
     /* apply flex to get right and left navigations in a row */
     display: flex;
     /* push both the blocks to the edges using justify-content */
-    justify-content: space-between;
+    justify-content:space-between;
 }
 /* target the ul and remove the bullets */
 .right-side, .left-side{
@@ -53,9 +53,9 @@ main {
     display: block;
     width: 100%;
     height: 100%;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #333;
-    padding: 14px 16px;
+    padding: 0.65em;
     font-weight: bold;
 }
 /* toevoeging hover */
@@ -67,7 +67,7 @@ main {
 h1  {
     color: #0e080c;
     text-align: center;
-    font-family: Besley;
+    font-family: candara;
     
 }
 
@@ -75,12 +75,12 @@ h2 {
     background: #EEE3D2;
     padding: 0.3em;
     text-align:center;
-    font-family: Indie Flower;
+    font-family: Calibri;
 
 }
 
 h3 , h4 {
-    font-family: indie flower;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #0e080c;
 }
@@ -89,33 +89,31 @@ h3 , h4 {
 
 .about {
     width: 50%;
-    padding: 78px 0px;
+    padding: 5em;
     background-color: transparent;
     display: flex;
     text-align: center;
 }  
 .about img {
     height: auto;
-    width: 420px;
+    width: 27em;
 }
 .about-tekst {
-    width: 550px;
+    width: 35em;
 }
 
 .about-tekst h1 {
     color: rgb(0, 0, 0);
-    font-size: 80px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
+    font-size: 6vw;
+    margin-bottom: 2vw;
     justify-content: flex-end;
 }
 
 .about-tekst h2 {
     color: rgb(0, 0, 0);
-    font-size: 80px;
-    text-transform: capitalize;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
+    font-size: 4vw;
+    margin-bottom: 0.60vw;
+    letter-spacing: 0.12vw;
     justify-content: flex-end;
 }
 
@@ -140,7 +138,7 @@ main .about{
     box-sizing: border-box;
     text-align: center;
     columns: 3 30vw; 
-    gap: 15px;
+    gap: 6em;
 }
 
 .blog article {
