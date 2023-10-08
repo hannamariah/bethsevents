@@ -29,7 +29,7 @@ main {
 
 /* navigatie pagina's*/
 
-.nav-container {
+header nav {
     border: 0.2em solid hsl(0, 0%, 0%);
     border-radius: 2em;
     margin-top: 2em;
@@ -42,15 +42,12 @@ main {
 }
 /* richt op de ul  */
 .right-side, .left-side{
-    list-style-type: none;
     display: flex;
 }
 
 /* wijzig li weergave van blok naar inline blok */
 .right-side li, .left-side li{
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
 }
 
 /* stijl de ankerelementen */
