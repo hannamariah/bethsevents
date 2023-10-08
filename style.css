@@ -9,7 +9,7 @@
 }
 
 
-body{
+body {
     min-height: 100vh;
     background-image: url(img/Scherm­afbeelding\ 2023-10-08\ om\ 19.28.23.png);
     background-size: cover;
@@ -17,7 +17,6 @@ body{
     background-attachment:fixed;
     background-color: hwb(0 0% 100% / 0.722);
     font-family: 'Times New Roman', Times, serif
-
 } 
 
 header {
@@ -27,39 +26,46 @@ header {
 main {
     min-height: 80vh;
 }
+
 /* navigatie pagina's*/
 
-.nav-container{
+.nav-container {
     border: 0.2em solid hsl(0, 0%, 0%);
-    border-radius: 3em;
-    margin-top: 1.4em;
+    border-radius: 2em;
+    margin-top: 2em;
     overflow: hidden;
     /* flex toepassen om rechts en links achter elkaar te navigeren */
     display: flex;
     /* duwt beide blokken naar de randen met justify-content */
     justify-content:space-between;
+    
 }
 /* richt op de ul  */
 .right-side, .left-side{
     list-style-type: none;
-}
-/* change li display property from block to inline block */
-.right-side li, .left-side li{
     display: flex;
 }
-/* style the anchor elements */
+
+/* wijzig li weergave van blok naar inline blok */
+.right-side li, .left-side li{
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* stijl de ankerelementen */
 .right-side li a, .left-side li a{
     text-decoration: none;
-    display: block;
     width: 100%;
     height: 100%;
-    font-size: 1.25em;
+    font-size: 1.50em;
     color: #333;
-    padding: 0.65em;
+    padding: 0.80em;
     font-weight: bold;
 }
+
 /* toevoeging hover */
-.right-side li a:hover, .left-side li a:hover{
+.right-side li a:hover, .left-side li a:hover {
     background-color: #fbcaca;
 }
 
@@ -79,12 +85,6 @@ h2 {
 
 }
 
-h3 , h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: #0e080c;
-}
-
 /*home*/
 
 .about {
@@ -93,11 +93,13 @@ h3 , h4 {
     background-color: transparent;
     display: flex;
     text-align: center;
-}  
+} 
+
 .about img {
     height: auto;
     width: 27em;
 }
+
 .about-tekst {
     width: 35em;
 }
@@ -117,7 +119,7 @@ h3 , h4 {
     justify-content: flex-end;
 }
 
-main .about{
+main .about {
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -127,7 +129,6 @@ main .about{
 }
 
 /*blog*/
-
 
 .blog {
     display: flex;
@@ -147,8 +148,6 @@ main .about{
     margin-bottom: 2em;
 }
 
-
-
 /*Gallery*/
 
 .fotos {
@@ -156,8 +155,6 @@ main .about{
     columns: 3 30vw; 
     gap: 15px;
 }
-
-
 
 /*contact*/
 
