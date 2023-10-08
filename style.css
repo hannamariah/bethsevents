@@ -16,7 +16,6 @@ body {
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-color: hwb(0 0% 100% / 0.722);
-    font-family: 'Times New Roman', Times, serif
 } 
 
 header {
@@ -56,7 +55,7 @@ header nav {
     width: 100%;
     height: 100%;
     font-size: 1.50em;
-    color: #333;
+    color: #000000;
     padding: 0.80em;
     font-weight: bold;
 }
@@ -117,7 +116,7 @@ h2 {
 }
 
 main .about {
-    width: 1130px;
+    width: 71em;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
@@ -150,7 +149,7 @@ main .about {
 .fotos {
     box-sizing: border-box;
     columns: 3 30vw; 
-    gap: 15px;
+    gap: 1vw;
 }
 
 /*contact*/
@@ -158,7 +157,6 @@ main .about {
 .contactformulier {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center; 
     margin-inline: 20%;
     background-color: #EEE3D2;
@@ -169,7 +167,8 @@ input,textarea {
     
     padding: 1rem;
     margin: 1rem;
-    width: 100%
+    width: 100%;
+    font-family: Calibri;
 }
 
 button {
@@ -183,8 +182,7 @@ footer {
     background-color: rgb(255, 235, 247);
     text-align: center;
     display: flex;
-    align-items: center;
-    min-height: 5vh;
+    min-height: 3vh;
     justify-content: center;
 }
 
