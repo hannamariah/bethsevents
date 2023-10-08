@@ -118,7 +118,7 @@ h3 , h4 {
 }
 
 main .about{
-    width: 1130px;
+    width: 71em;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
@@ -202,28 +202,3 @@ footer {
     justify-content: center;
 }
 
-footer img {
-    width: 40%;
-    height: 20%;
-}
-
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-    body {
-      background-color: #F09A9D; /* Red */
-    }
-  }
-  
-  /* Tablet Styles */
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
-    body {
-      background-color: #F5CF8E; /* Yellow */
-    }
-  }
-  
-  /* Desktop Styles */
-  @media only screen and (min-width: 961px) {
-    body {
-      background-color: #B2D6FF; /* Blue */
-    }
-  }
